@@ -370,43 +370,43 @@
         </div>
 
         <div class="matrix-card">
-            <div class="card-title">⏳ ĐẾM TUỔI THỌ TRỰC TUYẾN (CÓ LƯU TRỮ)</div>
+            <div class="card-title">⏳ ĐẾM TUỔI THỌ TRỰC TUYẾN</div>
             
             <div class="input-manual-group">
                 <div class="input-box-wrapper">
                     <label>Ngày sinh</label>
-                    <input type="number" id="input-day" class="num-input" placeholder="28">
+                    <input type="number" id="input-day" class="num-input" placeholder="Ví Dụ: 1">
                 </div>
                 <div class="input-box-wrapper">
                     <label>Tháng sinh</label>
-                    <input type="number" id="input-month" class="num-input" placeholder="10">
+                    <input type="number" id="input-month" class="num-input" placeholder="Ví Dụ: 1">
                 </div>
                 <div class="input-box-wrapper">
                     <label>Năm sinh</label>
-                    <input type="number" id="input-year" class="num-input" placeholder="2014">
+                    <input type="number" id="input-year" class="num-input" placeholder="Ví Dụ: 2000">
                 </div>
                 <div class="input-box-wrapper" style="max-width: 130px;">
                     <label>Kỳ vọng (Tuổi)</label>
                     <input type="number" id="input-expect" class="num-input" value="80">
                 </div>
-                <button onclick="saveAndCalculate()" class="btn-submit">⚡ KÍCH HOẠT</button>
+                <button onclick="saveAndCalculate()" class="btn-submit">⚡ TRA CỨU</button>
             </div>
 
             <div id="life-results-container" style="display: none;">
                 <div class="result-grid">
-                    <div class="result-item">✥ Số năm tích lũy: <span id="life-years">0</span></div>
-                    <div class="result-item">✥ Số tháng tích lũy: <span id="life-months">0</span></div>
-                    <div class="result-item">✥ Số tuần tích lũy: <span id="life-weeks">0</span></div>
-                    <div class="result-item">✥ Số ngày tích lũy: <span id="life-days">0</span></div>
+                    <div class="result-item">✥ Số năm đã sống: <span id="life-years">0</span></div>
+                    <div class="result-item">✥ Số tháng đã sống: <span id="life-months">0</span></div>
+                    <div class="result-item">✥ Số tuần đã sống: <span id="life-weeks">0</span></div>
+                    <div class="result-item">✥ Số ngày đã sống: <span id="life-days">0</span></div>
                     <div class="result-item" style="grid-column: span 2; border-left-color: #ffffff; text-align: center;">
-                        ❖ Thời gian thực tại đại não: <span id="life-seconds" style="color: #b780ff; font-size: 1.3rem;">0</span> giây
+                        ❖ Thời gian đã sống: <span id="life-seconds" style="color: #b780ff; font-size: 1.3rem;">0</span> giây
                     </div>
                 </div>
                 
                 <div class="progress-container">
                     <div id="life-bar" class="progress-bar"></div>
                 </div>
-                <div id="life-bar-text" class="progress-text">Đang tính toán ma trận...</div>
+                <div id="life-bar-text" class="progress-text">Đang tính toán...</div>
             </div>
         </div>
 
@@ -416,18 +416,18 @@
         </div>
 
         <div class="matrix-card">
-            <div class="card-title">⛩ QUỸ THỜI GIAN ĐẾN CÁC DỊP LỄ LỚN</div>
+            <div class="card-title">⛩ THỜI GIAN ĐẾN CÁC DỊP LỄ LỚN</div>
             <div id="holidays-box"></div>
         </div>
 
         <div class="developer-box">
-            <div class="dev-title">✥ AST STUDIO SYSTEM ✥</div>
+            <div class="dev-title">✥ AST STUDIO✥</div>
             <div class="dev-text">
                 Mọi ý kiến đóng góp, báo lỗi hoặc yêu cầu phát triển nâng cấp hệ thống web,<br>
                 vui lòng tham gia và liên hệ trực tiếp với chúng tôi tại phòng điều hành Discord.
             </div>
             <a href="https://discord.gg/dT9MhH4tPS" target="_blank" class="discord-btn">
-                連結 KHÔNG GIAN DISCORD 🌐
+                KHÔNG GIAN DISCORD 🌐
             </a>
         </div>
 
@@ -585,7 +585,7 @@
                 document.getElementById('life-seconds').innerText = seconds.toLocaleString();
                 
                 document.getElementById('life-bar').style.width = percentLife + "%";
-                document.getElementById('life-bar-text').innerText = `Mày đã sử dụng hết ${percentLife}% của mục tiêu sống thọ ${expect} tuổi.`;
+                document.getElementById('life-bar-text').innerText = `Bạn đã hoàn thành ${percentLife}% của mục tiêu sống thọ ${expect} tuổi.`;
             }, 1000);
         }
 
