@@ -527,7 +527,7 @@
         function saveAndCalculate() {
             playBeepSound(); const d = parseInt(document.getElementById('input-day').value); const m = parseInt(document.getElementById('input-month').value); const y = parseInt(document.getElementById('input-year').value); let expect = parseInt(document.getElementById('input-expect').value) || 80;
             if (!d || !m || !y) { showAlert("Vui lòng điền đủ Ngày - Tháng - Năm sinh!"); return; }
-            if (d < 1 || d > 31 || m < 1 || m > 12 || y < 1900 || y > 2026 || expect < 1) { showAlert("Thông tin sai lệch! Vui lòng kiểm tra lại số liệu."); return; }
+            if (d < 1 || d > 31 || m < 1 || m > 12 || y < 1000 || y > 2026 || expect < 1) { showAlert("Thông tin sai lệch! Vui lòng kiểm tra lại số liệu."); return; }
             localStorage.setItem('ast_day', d); localStorage.setItem('ast_month', m); localStorage.setItem('ast_year', y); localStorage.setItem('ast_expect', expect);
             runLifeClock(d, m, y, expect);
         }
