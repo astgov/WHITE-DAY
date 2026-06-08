@@ -42,7 +42,7 @@ Hệ thống tự động đồng bộ và nhảy số liên tục mỗi giây �
 Dự án được xây dựng hoàn toàn bằng mã nguồn thuần túy, không thông qua framework giúp tối ưu tốc độ tải trang cực nhẹ:
 * **HTML5:** Cấu trúc tài liệu và form nhập liệu thông minh.
 * **CSS3:** Thiết kế giao diện kính mờ (Glassmorphism Blur Effect), hiệu ứng đổ bóng phát sáng (Glow Text) và animation logo chữ cong.
-* **JavaScript (ES6):** Xử lý thuật toán thời gian, bộ đếm chu kỳ sinh học, lưu trữ dữ liệu cục bộ và hiệu ứng ma trận trên nền Canvas.
+* **JavaScript (ES6):** Xử lý thuật toán thời gian, bộ đếm chu kỳ sinh học, lưu trữ dữ liệu cục bộ.
 
 ---
 
