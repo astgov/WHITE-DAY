@@ -1,10 +1,10 @@
-# ⏳ WHITE DAY - ENGINE ĐẾM TUỔI THỌ & THỜI GIAN KỶ NIỆM VÔ CỰC
+# ⏳ WHITE DAY - ENGINE ĐẾM TUỔI THỌ & THỜI GIAN KỶ NIỆM
 
 [![Version](https://img.shields.io/badge/version-1.5.0-b780ff?style=for-the-badge)](https://github.com/astgov/WHITE-DAY)
 [![Language](https://img.shields.io/badge/Language-HTML5%20%7C%20CSS3%20%7C%20JS-943efd?style=for-the-badge)](https://github.com/astgov/WHITE-DAY)
 [![Style](https://img.shields.io/badge/Design-Glassmorphism-00ffcc?style=for-the-badge)](https://github.com/astgov/WHITE-DAY)
 
-Một ứng dụng web chạy trực tuyến được thiết kế theo phong cách **Glassmorphism Tím Không Gian (Galaxy Violet)** kết hợp hiệu ứng chữ chạy ma trận chuyển động ma mị. Hệ thống tích hợp các công cụ tính toán và theo dõi thời gian thực siêu chuẩn xác giúp tối ưu hóa trải nghiệm người dùng.
+Một ứng dụng web chạy trực tuyến được thiết kế theo phong cách **Glassmorphism Tím Không Gian (Galaxy Violet)**. Hệ thống tích hợp các công cụ tính toán và theo dõi thời gian thực siêu chuẩn xác giúp tối ưu hóa trải nghiệm người dùng.
 
 ---
 
