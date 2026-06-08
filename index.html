@@ -437,8 +437,8 @@
 
     <canvas id="matrix-canvas"></canvas>
 
-    <audio id="bg-lofi-music" loop>
-        <source src="bg-lofi-music.mp3" type="audio/mpeg">
+    <audio id="lofi-music" loop>
+        <source src="lofi-music.mp3" type="audio/mpeg">
     </audio>
 
     <div id="music-btn" class="music-controller" onclick="toggleMusic()">
@@ -551,7 +551,7 @@
         setInterval(drawMatrix, 30);
 
         // --- 2. ENGINE QUẢN LÝ NHẠC CHILL ---
-        const music = document.getElementById('bg-lofi-music');
+        const music = document.getElementById('lofi-music');
         const musicBtn = document.getElementById('music-btn');
         music.volume = 0.4; // Đặt âm lượng vừa phải 40% cho chill
 
